@@ -12,6 +12,7 @@ BigInt total() {
   for (int i = 1; i <= 64; i++) {
     sum += square(i);
   }
+  
   return sum;
 }
 
